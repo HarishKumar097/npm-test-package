@@ -1,6 +1,11 @@
-const testPackage = (a: number, b: number) => {
+const addPackage = (a: number, b: number) => {
 
     return (a + b)
 }
 
-export default testPackage
+const subPackage = (a: number, b: number) => {
+
+    return (a - b)
+}
+
+export default {addPackage, subPackage}
